@@ -768,20 +768,6 @@ public class MainActivity extends AppCompatActivity implements
                 }
             }
 
-//            Cursor cursor = db.getCategories();
-//            cursor.moveToFirst();
-//            while (!cursor.isAfterLast()){
-//                categoryImages.put(
-//                        cursor.getInt(cursor.getColumnIndex(DB.COLUMN_ID)),
-//                        byteToBitmap(cursor.getBlob(cursor.getColumnIndex(DB.COLUMN_CATEGORY_IMG)))
-//                );
-//                categoryNames.put(cursor.getInt(cursor.getColumnIndex(DB.COLUMN_ID)),
-//                        cursor.getString(cursor.getColumnIndex(DB.COLUMN_CATEGORY_NAME)));
-//                cursor.moveToNext();
-//            }
-//            cursor.close();
-//            db.close();
-
             return new Categories(categoryNames, categoryImages);
         }
 
@@ -890,11 +876,6 @@ public class MainActivity extends AppCompatActivity implements
             }
         }
 
-//        Bitmap byteToBitmap(byte[] imgByte){
-//            if (imgByte!=null)
-//                return BitmapFactory.decodeByteArray(imgByte, 0, imgByte.length);
-//            else return BitmapFactory.decodeResource(getResources(), R.drawable.ic_cloud_off_black_72dp);
-//        }
 
 
         @Override
