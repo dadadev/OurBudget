@@ -2038,30 +2038,7 @@ public class DB {
 
             insertCategories(db);
 
-//            db.insert(TABLE_NAME_CATEGORIES, null, newCategory(context.getString(R.string.categ_auto), BitmapFactory.decodeResource(context.getResources(), R.drawable.categ_auto)));
-//            db.insert(TABLE_NAME_CATEGORIES, null, newCategory(context.getString(R.string.categ_transport), BitmapFactory.decodeResource(context.getResources(), R.drawable.categ_transport)));
-//            db.insert(TABLE_NAME_CATEGORIES, null, newCategory(context.getString(R.string.categ_baby), BitmapFactory.decodeResource(context.getResources(), R.drawable.categ_kids)));
-//            db.insert(TABLE_NAME_CATEGORIES, null, newCategory(context.getString(R.string.categ_clothes), BitmapFactory.decodeResource(context.getResources(), R.drawable.categ_clothing)));
-//            db.insert(TABLE_NAME_CATEGORIES, null, newCategory(context.getString(R.string.categ_footwear), BitmapFactory.decodeResource(context.getResources(), R.drawable.categ_footwear)));
-//            db.insert(TABLE_NAME_CATEGORIES, null, newCategory(context.getString(R.string.categ_purchases), BitmapFactory.decodeResource(context.getResources(), R.drawable.categ_purchases)));
-//            db.insert(TABLE_NAME_CATEGORIES, null, newCategory(context.getString(R.string.categ_communal), BitmapFactory.decodeResource(context.getResources(), R.drawable.categ_utilites)));
-//            db.insert(TABLE_NAME_CATEGORIES, null, newCategory(context.getString(R.string.categ_cosmetics), BitmapFactory.decodeResource(context.getResources(), R.drawable.categ_cosmetics)));
-//            db.insert(TABLE_NAME_CATEGORIES, null, newCategory(context.getString(R.string.categ_fun), BitmapFactory.decodeResource(context.getResources(), R.drawable.categ_entertainment)));
-//            db.insert(TABLE_NAME_CATEGORIES, null, newCategory(context.getString(R.string.categ_food), BitmapFactory.decodeResource(context.getResources(), R.drawable.categ_food)));
-//            db.insert(TABLE_NAME_CATEGORIES, null, newCategory(context.getString(R.string.categ_restaurant), BitmapFactory.decodeResource(context.getResources(), R.drawable.categ_restaurant)));
-//            db.insert(TABLE_NAME_CATEGORIES, null, newCategory(context.getString(R.string.categ_household), BitmapFactory.decodeResource(context.getResources(), R.drawable.categ_chemicals)));
-//            db.insert(TABLE_NAME_CATEGORIES, null, newCategory(context.getString(R.string.categ_internet), BitmapFactory.decodeResource(context.getResources(), R.drawable.categ_internet_buy)));
-//            db.insert(TABLE_NAME_CATEGORIES, null, newCategory(context.getString(R.string.categ_credit_card), BitmapFactory.decodeResource(context.getResources(), R.drawable.categ_credit_card)));
-//            db.insert(TABLE_NAME_CATEGORIES, null, newCategory(context.getString(R.string.categ_jeweler), BitmapFactory.decodeResource(context.getResources(), R.drawable.categ_jewelry)));
-//            db.insert(TABLE_NAME_CATEGORIES, null, newCategory(context.getString(R.string.categ_medicine), BitmapFactory.decodeResource(context.getResources(), R.drawable.categ_medicine)));
-//            db.insert(TABLE_NAME_CATEGORIES, null, newCategory(context.getString(R.string.categ_part), BitmapFactory.decodeResource(context.getResources(), R.drawable.categ_jobs)));
-//            db.insert(TABLE_NAME_CATEGORIES, null, newCategory(context.getString(R.string.categ_pets), BitmapFactory.decodeResource(context.getResources(), R.drawable.categ_pets)));
-//            db.insert(TABLE_NAME_CATEGORIES, null, newCategory(context.getString(R.string.categ_presents), BitmapFactory.decodeResource(context.getResources(), R.drawable.categ_gifts)));
-//            db.insert(TABLE_NAME_CATEGORIES, null, newCategory(context.getString(R.string.categ_salary), BitmapFactory.decodeResource(context.getResources(), R.drawable.categ_salary)));
-//            db.insert(TABLE_NAME_CATEGORIES, null, newCategory(context.getString(R.string.categ_sport), BitmapFactory.decodeResource(context.getResources(), R.drawable.categ_sport)));
-//            db.insert(TABLE_NAME_CATEGORIES, null, newCategory(context.getString(R.string.categ_studies), BitmapFactory.decodeResource(context.getResources(), R.drawable.categ_studies)));
-//            db.insert(TABLE_NAME_CATEGORIES, null, newCategory(context.getString(R.string.categ_travels), BitmapFactory.decodeResource(context.getResources(), R.drawable.categ_travels)));
-//            db.insert(TABLE_NAME_CATEGORIES, null, newCategory(context.getString(R.string.categ_tv), BitmapFactory.decodeResource(context.getResources(), R.drawable.categ_appliances)));
+
         }
 
         @Override
@@ -2072,9 +2049,9 @@ public class DB {
         private void insertCategories(SQLiteDatabase db){
             String[] categoryNames = context.getResources().getStringArray(R.array.category_names);
 
-            for (int i = 0; i < categoryNames.length; i++) {
+            for (String categoryName : categoryNames) {
                 ContentValues contentValues = new ContentValues();
-                contentValues.put(COLUMN_CATEGORY_NAME, categoryNames[i]);
+                contentValues.put(COLUMN_CATEGORY_NAME, categoryName);
                 contentValues.put(COLUMN_CATEGORY_USE_COUNTER, 0);
 
                 db.insert(TABLE_NAME_CATEGORIES, null, contentValues);
