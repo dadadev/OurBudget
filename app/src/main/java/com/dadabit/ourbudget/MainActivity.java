@@ -753,7 +753,7 @@ public class MainActivity extends AppCompatActivity implements
             SparseArray<String> categoryNames=new SparseArray<>();
             SparseArray<Bitmap> categoryImages=new SparseArray<>();
 
-            int[] ids = new DB(MainActivity.this).getCategoriesIds();
+            int[] ids = new DB(MainActivity.this).getCategories();
 
             if (ids != null){
                 for (int i = 0; i < ids.length; i++) {

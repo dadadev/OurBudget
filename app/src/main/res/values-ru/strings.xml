@@ -32,6 +32,33 @@
     <string name="categ_travels">Путешествие</string>
     <string name="categ_tv">Бытовая \nТехника</string>
 
+    <string-array name="category_names">
+        <item>Автомобиль</item>
+        <item>Транспорт</item>
+        <item>Ребёнок</item>
+        <item>Одежда</item>
+        <item>Обувь</item>
+        <item>Супермаркет</item>
+        <item>Бытовые\nРасходы</item>
+        <item>Косметика</item>
+        <item>Развлечения</item>
+        <item>Еда</item>
+        <item>Ресторан</item>
+        <item>Бытовая\nХимия</item>
+        <item>Интернет</item>
+        <item>Кредитная\nКарта</item>
+        <item>Ювелирные\nИзделия</item>
+        <item>Медицина</item>
+        <item>Доп.\nдоход</item>
+        <item>Животные</item>
+        <item>Подарки</item>
+        <item>Зарплата</item>
+        <item>Спорт</item>
+        <item>Учёба</item>
+        <item>Путешествие</item>
+        <item>Бытовая \nТехника</item>
+    </string-array>
+
     <string name="bluetooth_checkbox_text">Обнаружение другими устройствами</string>
     <string name="bluetooth_visible">Видимость для других устройств включена</string>
     <string name="bluetooth_connected">Подключенно к \"</string>

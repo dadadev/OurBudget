@@ -485,7 +485,7 @@ public class PaymentsInputFragment  extends Fragment implements CategoryClickLis
         @Override
         protected int[] doInBackground(Void... params) {
 
-            return new DB(getContext()).getCategoriesIds();
+            return new DB(getContext()).getSortedCategoriesIds();
         }
 
         @Override

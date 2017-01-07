@@ -129,20 +129,34 @@ public class DB {
      *  >>>>>>>>>>>>>>>CATEGORIES<<<<<<<<<<<<<<<<<<
      */
 
-    public Cursor getCategories(){
+    public int[] getCategories(){
         open();
-        return database.query(
+
+        Cursor cursor = database.query(
                 TABLE_NAME_CATEGORIES,
                 null,
                 null,
                 null,
                 null,
                 null,
-                COLUMN_CATEGORY_USE_COUNTER +" DESC");
+                null);
+        int[] ids = null;
 
+        if (cursor.getCount() != 0){
+            cursor.moveToFirst();
+            ids = new int[cursor.getCount()];
+            for (int i = 0; i < cursor.getCount(); i++) {
+                cursor.moveToPosition(i);
+                ids[i]=cursor.getInt(cursor.getColumnIndex(COLUMN_ID));
+            }
+        }
+        cursor.close();
+        close();
+
+        return ids;
     }
 
-    public int[] getCategoriesIds(){
+    public int[] getSortedCategoriesIds(){
         open();
 
         Cursor cursor = database.query(

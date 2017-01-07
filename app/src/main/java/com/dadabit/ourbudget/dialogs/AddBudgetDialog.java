@@ -226,7 +226,7 @@ public class AddBudgetDialog extends DialogFragment implements
         @Override
         protected int[] doInBackground(Void... params) {
 
-            return new DB(getContext()).getCategoriesIds();
+            return new DB(getContext()).getSortedCategoriesIds();
         }
 
         @Override

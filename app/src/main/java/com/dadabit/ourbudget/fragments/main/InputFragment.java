@@ -11,7 +11,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v4.view.GravityCompat;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -1112,7 +1111,7 @@ public class InputFragment  extends Fragment implements
     private class LoadCategoriesIDs extends AsyncTask<Void, Void, int[]>{
         @Override
         protected int[] doInBackground(Void... params) {
-            return new DB(getContext()).getCategoriesIds();
+            return new DB(getContext()).getSortedCategoriesIds();
         }
 
         @Override
