@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/nav_persons"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="@string/nav_persons_info" />
+
+        <item
+            android:id="@+id/nav_calculator"
+            android:icon="@drawable/ic_calculator_black_24dp"
+            android:title="@string/nav_calculator" />
+
+
+        <item
+            android:id="@+id/nav_payments"
+            android:icon="@drawable/ic_payments_black_24dp"
+            android:title="@string/nav_regular_payments" />
+
+
+
+    </group>
+
+    <item android:title="@string/nav_settings">
+        <menu>
+
+            <item
+                android:id="@+id/nav_add_user"
+                android:icon="@drawable/ic_add_user_black_24dp"
+                android:title="@string/nav_add_second_user" />
+
+            <item
+                android:id="@+id/nav_sync"
+                android:icon="@drawable/ic_sync_black_24dp"
+                android:title="@string/nav_synchronize" />
+
+            <item
+            android:id="@+id/nav_currency"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/nav_choose_currency" />
+
+            <item
+                android:id="@+id/nav_sign_out"
+                android:icon="@drawable/ic_sign_out_black_24dp"
+                android:title="@string/nav_sign_out" />
+
+        </menu>
+    </item>
+
+</menu>

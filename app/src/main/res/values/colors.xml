@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#448AFF</color>
+    <color name="colorPrimaryDark">#448AFF</color>
+    <color name="colorAccent">#FF80AB</color>
+
+    <color name="app_background">#F5F5F5</color>
+    <color name="auth_background">#03a9f4</color>
+
+    <color name="white">#fafafa</color>
+    <color name="black">#424242</color>
+    <color name="gray_light">#cfd8dc</color>
+
+
+
+    <color name="nav_header_iv_circle_border">#fafafa</color>
+
+    <color name="bluetooth_card_listview_background">#E3F2FD</color>
+    <color name="bluetooth_card_checkbox_background">#fafafa</color>
+
+    <color name="budgets_bottom_sheet_background">#ECEFF1</color>
+    <color name="budgets_bottom_sheet_btn">#FF80AB</color>
+
+    <color name="category_card_background">#E3F2FD</color>
+    <color name="category_circle_border">#fafafa</color>
+
+    <!--Main Budget Fragment-->
+
+    <color name="budget_card_background">#E3F2FD</color>
+    <color name="budget_progress_fill">#81D4FA</color>
+    <color name="budget_progress_background">#eeeeee</color>
+    <color name="budget_progress_full_background">#ff8a80</color>
+    <color name="budget_progress_boarder">#E0E0E0</color>
+    <color name="budget_dayspend_boarder">#eeeeee</color>
+
+
+    <color name="trList_header">#BBDEFB</color>
+    <color name="trList_items_background">#fafafa</color>
+    <color name="trList_items_circle_border">#9e9e9e</color>
+
+    <color name="trList_balance_card">#fafafa</color>
+    <color name="trList_bottom_card">#fafafa</color>
+
+
+    <color name="trList_bottom_sheet_background">#ECEFF1</color>
+    <color name="trList_bottom_sheet_btn">#FF80AB</color>
+
+
+    <color name="trList_items_shape_background">#F5F5F5</color>
+    <color name="trList_items_shape_boarder">#eceff1</color>
+    <color name="person2_item_card">#fbe9e7</color>
+
+
+    <color name="trList_child_name_shape_border">#e0f2f1</color>
+
+
+    <color name="amount_plus">#4caf50</color>
+    <color name="amount_minus">#ef5350</color>
+
+    <color name="input_up_buttons_background">#E3F2FD</color>
+    <color name="input_up_buttons_background_clicked">#90CAF9</color>
+    <color name="input_up_buttons_border">#e0f2f1</color>
+    <color name="input_bottom_buttons_background">#536dfe</color>
+
+    <color name="input_description_card_background">#ECEFF1</color>
+
+    <color name="input_amount_card_background">#F5F5F5</color>
+    <color name="input_amount_text_background">#FAFAFA</color>
+    <color name="input_amount_text_boarder">#cfd8dc</color>
+
+    <color name="input_switch_background">#FAFAFA</color>
+    <color name="input_switch_expense">#FFCDD2</color>
+    <color name="input_switch_expense_end">#ef9a9a</color>
+    <color name="input_switch_income">#C8E6C9</color>
+    <color name="input_switch_boarder">#cfd8dc</color>
+
+    <color name="input_keyboard_background">#ECEFF1</color>
+    <color name="input_keyboard_button">#FAFAFA</color>
+    <color name="input_keyboard_button_dark">#E0E0E0</color>
+    <color name="input_keyboard_btn_clear">#E0E0E0</color>
+    <color name="input_keyboard_btn_save">#FF80AB</color>
+
+</resources>

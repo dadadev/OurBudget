@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/info.appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="?attr/actionModeCloseDrawable"
+                android:id="@+id/info_btn_back"
+                style="@style/Base.Widget.AppCompat.ActionButton"
+                android:clickable="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/info.tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_weight="4"
+                app:tabIndicatorHeight="4dp"
+                />
+        </LinearLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    ​<android.support.v4.view.ViewPager
+    android:id="@+id/info.viewpager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    />
+    ​
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="DialogCurrency">
+        <item name = "android:windowFullscreen">true</item>
+        <item name = "android:windowIsTranslucent">true</item>
+        <item name = "android:windowContentOverlay" >@null</item >
+        <item name = "android:colorBackgroundCacheHint" >@null</item >
+        <item name = "android:backgroundDimEnabled">true</item>
+        <item name = "android:windowEnterAnimation">@anim/slide_from_right_500</item>
+        <item name = "android:windowExitAnimation">@anim/slide_out_left_200</item>
+    </style>
+
+    <style name="DialogCalendar">
+        <item name="android:windowEnterAnimation">@anim/dialog_calendar_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_calendar_out</item>
+    </style>
+
+    <style name="DialogAddUser2">
+        <item name="android:windowEnterAnimation">@anim/slide_up_500</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_up_300</item>
+    </style>
+
+    <style name="DialogBudgets">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name = "android:windowContentOverlay" >@null</item >
+        <item name = "android:colorBackgroundCacheHint" >@null</item >
+        <item name = "android:backgroundDimEnabled">true</item>
+        <item name="android:windowEnterAnimation">@anim/slide_up_500</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_up_300</item>
+    </style>
+
+    <style name="DialogProgress">
+        <item name="android:windowEnterAnimation">@anim/slide_down_500</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_up_300</item>
+    </style>
+
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

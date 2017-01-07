@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/statistic_bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:clipToPadding="true"
+        android:outlineProvider="bounds"
+        android:background="@android:color/white"
+        app:layout_behavior="android.support.design.widget.BottomSheetBehavior"
+        app:behavior_peekHeight="56dp"
+        android:paddingTop="8dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:showText="true"
+                android:id="@+id/statistic_switch_amount"
+                android:textOff="@string/switch_expense"
+                android:textOn="@string/switch_income"
+                android:switchMinWidth="76dp"
+                android:thumb="@drawable/switch_statistic_thumb_input"
+                android:track="@drawable/switch_statistic_track_input"
+
+                android:gravity="right"
+                android:layout_alignTop="@+id/statistic_switch_date"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:clickable="true"
+                app:srcCompat="@drawable/ic_left"
+                style="?android:actionButtonStyle"
+                android:id="@+id/statistic_iv_left"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextSwitcher
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="8dp"
+                android:id="@+id/statistic_tv_month"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/statistic_iv_left"
+                android:layout_toEndOf="@+id/statistic_iv_left" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_right"
+                android:clickable="true"
+                style="?android:actionButtonStyle"
+                android:id="@+id/statistic_iv_right"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/statistic_tv_month"
+                android:layout_toEndOf="@+id/statistic_tv_month" />
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:showText="true"
+                android:id="@+id/statistic_switch_date"
+                android:textOff="@string/switch_date_month"
+                android:textOn="@string/switch_date_year"
+                android:switchMinWidth="76dp"
+                android:thumb="@drawable/switch_statistic_thumb_input"
+                android:track="@drawable/switch_statistic_track_input"
+
+                android:layout_below="@+id/statistic_iv_left"
+                android:layout_alignLeft="@+id/statistic_iv_left"
+                android:layout_alignStart="@+id/statistic_iv_left" />
+
+
+        </RelativeLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/statistic_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/ic_up"
+        app:layout_anchor="@id/statistic_bottom_sheet"
+        app:layout_anchorGravity="end"
+        />
+
+    <RelativeLayout
+        android:id="@+id/statistic_layout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        card_view:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:id="@+id/statistic_total_balance_card"
+            card_view:cardCornerRadius="2dp"
+            card_view:cardElevation="8dp"
+            card_view:cardMaxElevation="6dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="-4dp"
+            card_view:contentPaddingLeft="10dp"
+            card_view:contentPaddingRight="10dp"
+            card_view:cardBackgroundColor="@color/trList_balance_card"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+
+
+            <TextSwitcher
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:gravity="center_horizontal"
+                android:id="@+id/statistic_total_balance_tv"
+                />
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/statistic_piechart_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-4dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            card_view:contentPaddingLeft="8dp"
+            card_view:contentPaddingRight="8dp"
+            card_view:contentPaddingTop="8dp"
+            card_view:cardCornerRadius="5dp"
+            card_view:cardElevation="4dp"
+            card_view:cardMaxElevation="6dp"
+            android:orientation="vertical"
+            card_view:cardBackgroundColor="@color/input_up_buttons_background"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_below="@+id/statistic_total_balance_card"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <org.eazegraph.lib.charts.PieChart
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/statistic_piechart"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:padding="8dp"
+                    card_view:egLegendTextSize="18sp"
+                    card_view:egUsePieRotation="true"
+                    card_view:egValueTextSize="36sp"
+                    android:visibility="visible"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    card_view:srcCompat="@drawable/ic_left"
+                    style="?android:actionButtonStyle"
+                    android:id="@+id/statistic_piechart_iv_left"
+                    android:baselineAlignBottom="true"
+                    android:layout_below="@+id/statistic_piechart"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="-48dp"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_right"
+                    android:clickable="true"
+                    style="?android:actionButtonStyle"
+                    android:id="@+id/statistic_piechart_iv_right"
+                    android:layout_below="@+id/statistic_piechart"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="-48dp"
+                    />
+
+
+            </RelativeLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

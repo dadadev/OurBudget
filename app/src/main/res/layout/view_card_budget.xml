@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="2dp"
+    card_view:cardElevation="8dp"
+    card_view:cardMaxElevation="6dp"
+    android:orientation="horizontal"
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="8dp"
+    card_view:cardBackgroundColor="@color/budget_card_background"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:longClickable="true"
+    android:id="@+id/card_budget">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/card_budgets_iv"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="8dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/categ_food"
+            app:border_width="2dp"
+            app:border_color="@color/category_circle_border"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <com.dadabit.ourbudget.customClasses.TextProgressBar
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:progressDrawable="@drawable/progress_bar_states"
+            android:id="@+id/card_budgets_progressBar"
+            android:progress="55"
+            android:layout_margin="8dp"
+            android:layout_below="@+id/card_budgets_iv"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:text="Food"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/card_budgets_name"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="In Month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/card_budgets_by_date"
+            android:layout_above="@+id/card_budgets_progressBar"
+            android:layout_alignRight="@+id/card_budgets_progressBar"
+            android:layout_alignEnd="@+id/card_budgets_progressBar" />
+
+        <TextView
+            android:text="1000 $"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/card_budgets_amount"
+            android:layout_above="@+id/card_budgets_by_date"
+            android:layout_alignRight="@+id/card_budgets_by_date"
+            android:layout_alignEnd="@+id/card_budgets_by_date" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/budget_dayspend_boarder"
+            android:layout_alignRight="@+id/card_budgets_amount"
+            android:layout_alignEnd="@+id/card_budgets_amount"
+            android:id="@+id/card_budgets_day_spend"
+            android:visibility="gone"
+            />
+
+        <ImageButton
+            android:id="@+id/card_budgets_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:clickable="true"
+            card_view:srcCompat="@android:drawable/ic_menu_delete"
+            android:background="@color/budget_card_background"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:visibility="gone"/>
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

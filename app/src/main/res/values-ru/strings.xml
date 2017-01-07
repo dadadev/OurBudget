@@ -1,0 +1,165 @@
+<resources>
+    <string name="app_name">Our Budget</string>
+
+    <string name="default_amount">0,00</string>
+    <string name="default_currency"> $</string>
+
+    <string name="title_balance">Баланс: </string>
+
+
+    <string name="categ_auto">Автомобиль</string>
+    <string name="categ_transport">Транспорт</string>
+    <string name="categ_baby">Ребёнок</string>
+    <string name="categ_clothes">Одежда</string>
+    <string name="categ_footwear">Обувь</string>
+    <string name="categ_purchases">Супермаркет</string>
+    <string name="categ_communal">Бытовые\nРасходы</string>
+    <string name="categ_cosmetics">Косметика</string>
+    <string name="categ_fun">Развлечения</string>
+    <string name="categ_food">Еда</string>
+    <string name="categ_restaurant">Ресторан</string>
+    <string name="categ_household">Бытовая\nХимия</string>
+    <string name="categ_internet">Интернет</string>
+    <string name="categ_credit_card">Кредитная\nКарта</string>
+    <string name="categ_jeweler">Ювелирные\nИзделия</string>
+    <string name="categ_medicine">Медицина</string>
+    <string name="categ_part">Доп.\nдоход</string>
+    <string name="categ_pets">Животные</string>
+    <string name="categ_presents">Подарки</string>
+    <string name="categ_salary">Зарплата</string>
+    <string name="categ_sport">Спорт</string>
+    <string name="categ_studies">Учёба</string>
+    <string name="categ_travels">Путешествие</string>
+    <string name="categ_tv">Бытовая \nТехника</string>
+
+    <string name="bluetooth_checkbox_text">Обнаружение другими устройствами</string>
+    <string name="bluetooth_visible">Видимость для других устройств включена</string>
+    <string name="bluetooth_connected">Подключенно к \"</string>
+    <string name="search_complete">Поиск закончен</string>
+    <string name="bluetooth_choose_device">Сперва выберите устройство</string>
+
+
+    <string name="main_tab1">Запись</string>
+    <string name="main_tab2">Журнал</string>
+    <string name="main_tab3">Бюджеты</string>
+    <string name="main_tab4">График</string>
+
+    <string name="payments_tab1">Запись</string>
+    <string name="payments_tab2">Журнал</string>
+
+    <string name="main_snackbar_update">Обновить</string>
+
+    <string name="budget_card_every_day">" в день"</string>
+    <string name="budget_card_in_day">Ежедневно</string>
+    <string name="budget_card_in_week">Еженедельно</string>
+    <string name="budget_card_in_month">Ежемесячно</string>
+    <string name="budget_card_in_year">Ежегодно</string>
+
+    <string name="every_day">Каждый день</string>
+    <string name="every_week">Каждую неделю</string>
+    <string name="every_month">Каждый месяц</string>
+
+    <string name="btn_date">Дата</string>
+    <string name="btn_description">Описание</string>
+    <string name="btn_clear">Очистить</string>
+    <string name="btn_save">Сохранить</string>
+
+    <string name="write_description">Добавить описание</string>
+
+    <string name="week">" неделя "</string>
+
+    <string name="toast_choose_category">Выберите категорию</string>
+    <string name="toast_choose_amount">Введите сумму</string>
+    <string name="toast_year_changed">"Год "</string>
+    <string name="toast_zero_amount">"Сумма = 0 "</string>
+    <string name="toast_exit">Нажмите ещё раз для выхода.</string>
+
+
+    <string name="switch_expense">Расход</string>
+    <string name="switch_income">Доход</string>
+    <string name="switch_date_month">Месяц</string>
+    <string name="switch_date_year">Год</string>
+
+    <string name="payments_input_no_type">Выберите тип</string>
+    <string name="payments_input_no_category">Выберите категорию</string>
+    <string name="payments_input_no_name">Введите имя</string>
+    <string name="payments_input_no_amount">Введите сумму</string>
+    <string name="payment_day_description">"\n(Ежедневный платёж)"</string>
+    <string name="payments_week_description">"\n(Еженедельный платёж)</string>
+    <string name="payment_month_description">"\n(Ежемесячный платёж)</string>
+
+    <string name="payments_choose_day">Выбор дня</string>
+    <string name="payments_payment_name">Название платежа</string>
+    <string name="payments_every_day">Ежедневно</string>
+    <string name="payments_every_week">Еженедельно</string>
+    <string name="payments_every_month">Ежемесячно</string>
+    <string name="payments_save">Сохранить</string>
+
+    <string name="nav_persons_info">Пользователи</string>
+    <string name="nav_calculator">Калькулятор</string>
+    <string name="nav_regular_payments">Регулярные платежы</string>
+    <string name="nav_settings">Настройки</string>
+    <string name="nav_add_second_user">Добавить пользователя</string>
+    <string name="nav_synchronize">Синхронизация</string>
+    <string name="nav_choose_currency">Выбор валюты</string>
+    <string name="nav_sign_out">Выйти из аккаунта</string>
+
+    <string name="bottom_sheet_deleted">Удалено</string>
+    <string name="bottom_sheet_revoke">Отмена</string>
+
+    <string name="transactions_radio_month">Месяц</string>
+    <string name="transactions_radio_week">Неделя</string>
+    <string name="transactions_radio_day">День</string>
+
+    <string name="dialog_budget_create">создать</string>
+    <string name="dialog_budget_in_year">Годичный</string>
+    <string name="dialog_budget_in_month">Месячный</string>
+    <string name="dialog_budget_in_week">Недельный</string>
+    <string name="dialog_budget_amount">Сумма</string>
+
+    <string name="info_spending_today">Потрачено сегодня:</string>
+    <string name="info_spending_this_month">Потрачено в этом месяце:</string>
+    <string name="info_spending_total">Всего потрачено:</string>
+    <string name="info_earnings_this_month">Доход в этом месяце:</string>
+    <string name="info_earnings_total">Общий доход:</string>
+    <string name="info_transactions_this_month">Количество операций за месяц:</string>
+    <string name="info_total_transactions">Общее количество операций:</string>
+
+    <string name="dialog_add_user_email_hint">e-mail второго пользователя</string>
+    <string name="dialog_add_user_btn_cancel">Отмена</string>
+    <string name="dialog_add_user_btn_ok">Ok</string>
+    <string name="dialog_add_user_progress_title">"Поиск пользователя "</string>
+    <string name="dialog_add_user_progress_message">Второй пользователь должен указать ваш e-mail на своём устройстве</string>
+    <string name="dialog_add_user_progress_btn_cancel">Отмена</string>
+    <string name="toast_email_not_valid">E-mail ввён не верно</string>
+    <string name="toast_new_user_added"> был добавлен</string>
+    <string name="toast_not_correct_email">Неверный e-mail</string>
+    <string name="dialog_add_user_ask_retry">Ошибка. Убедитесь что e-mail записан верно.</string>
+    <string name="dialog_add_user_btn_retry">Повторить</string>
+
+    <string-array name="currency_array">
+        <item> $</item>
+        <item> €</item>
+        <item> £</item>
+        <item> ₪</item>
+        <item> ₽</item>
+        <item> ¥</item>
+    </string-array>
+
+    <string-array name="statistic_month_array">
+        <item>Январь</item>
+        <item>Февраль</item>
+        <item>Март</item>
+        <item>Апрель</item>
+        <item>Май</item>
+        <item>Июнь</item>
+        <item>Июль</item>
+        <item>Август</item>
+        <item>Сентябрь</item>
+        <item>Октябрь</item>
+        <item>Ноябрь</item>
+        <item>Декабрь</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/card_currency"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="4dp"
+    card_view:cardMaxElevation="6dp"
+    android:paddingRight="5dp"
+    android:paddingLeft="5dp"
+    card_view:cardBackgroundColor="@color/white"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:layout_margin="8dp"
+    >
+
+
+        <TextView
+            android:id="@+id/card_currency_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/default_currency"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginLeft="24dp"/>
+
+
+</android.support.v7.widget.CardView>
+

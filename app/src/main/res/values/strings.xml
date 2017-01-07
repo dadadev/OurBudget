@@ -1,0 +1,193 @@
+<resources>
+    <string name="app_name">Our Budget</string>
+
+    <string name="default_amount">0,00</string>
+    <string name="default_currency"> $</string>
+
+    <string name="title_balance">Balance: </string>
+
+
+    <string name="categ_auto">Auto</string>
+    <string name="categ_transport">Transport</string>
+    <string name="categ_baby">Baby</string>
+    <string name="categ_clothes">Clothes</string>
+    <string name="categ_footwear">Footwear</string>
+    <string name="categ_purchases">Purchases</string>
+    <string name="categ_communal">Communal</string>
+    <string name="categ_cosmetics">Cosmetics</string>
+    <string name="categ_fun">Fun:)</string>
+    <string name="categ_food">Food</string>
+    <string name="categ_restaurant">Restaurant</string>
+    <string name="categ_household">Household</string>
+    <string name="categ_internet">Internet</string>
+    <string name="categ_credit_card">Credit Card</string>
+    <string name="categ_jeweler">Jeweler</string>
+    <string name="categ_medicine">Medicine</string>
+    <string name="categ_part">Part</string>
+    <string name="categ_pets">Pets</string>
+    <string name="categ_presents">Presents</string>
+    <string name="categ_salary">Salary</string>
+    <string name="categ_sport">Sport</string>
+    <string name="categ_studies">Studies</string>
+    <string name="categ_travels">Travels</string>
+    <string name="categ_tv">Appliances</string>
+
+    <string-array name="category_names">
+        <item>Auto</item>
+        <item>Transport</item>
+        <item>Kids</item>
+        <item>Clothes</item>
+        <item>Footwear</item>
+        <item>Purchases</item>
+        <item>Communal</item>
+        <item>Cosmetics</item>
+        <item>Fun:)</item>
+        <item>Food</item>
+        <item>Restaurant</item>
+        <item>Household</item>
+        <item>Internet</item>
+        <item>Credit Card</item>
+        <item>Jeweler</item>
+        <item>Medicine</item>
+        <item>Part</item>
+        <item>Pets</item>
+        <item>Presents</item>
+        <item>Salary</item>
+        <item>Sport</item>
+        <item>Studies</item>
+        <item>Travels</item>
+        <item>Appliances</item>
+    </string-array>
+
+    <string name="bluetooth_checkbox_text">Set visible to nearby devices</string>
+    <string name="bluetooth_visible">visible to nearby devices</string>
+    <string name="bluetooth_connected">Connected to \"</string>
+    <string name="search_complete">Search complete. Choose device for sending key.</string>
+    <string name="bluetooth_choose_device">first choose device</string>
+
+
+    <string name="main_tab1">Input</string>
+    <string name="main_tab2">Transactions</string>
+    <string name="main_tab3">Budgets</string>
+    <string name="main_tab4">Statistic</string>
+
+    <string name="payments_tab1">Input</string>
+    <string name="payments_tab2">Payments list</string>
+    <string name="main_snackbar_update">Update</string>
+
+    <string name="budget_card_every_day">" in day"</string>
+    <string name="budget_card_in_day">" In day"</string>
+    <string name="budget_card_in_week">In Week</string>
+    <string name="budget_card_in_month">In Month</string>
+    <string name="budget_card_in_year">In Year</string>
+
+    <string name="every_day">Every day</string>
+    <string name="every_week">Every week</string>
+    <string name="every_month">Every month</string>
+
+    <string name="btn_date">Date</string>
+    <string name="btn_description">Description</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_save">Save</string>
+
+
+    <string name="write_description">write description</string>
+
+
+    <string name="week">" week "</string>
+
+    <string name="toast_choose_category">Please choose category</string>
+    <string name="toast_choose_amount">Please write amount</string>
+    <string name="toast_year_changed">"Year "</string>
+    <string name="toast_zero_amount">"Amount is 0 "</string>
+    <string name="toast_exit">Press Back again to Exit.</string>
+
+
+    <string name="switch_expense">Expense</string>
+    <string name="switch_income">Income</string>
+    <string name="switch_date_month">Month</string>
+    <string name="switch_date_year">Year</string>
+
+    <string name="payments_input_no_type">No type chosen</string>
+    <string name="payments_input_no_category">No category chosen</string>
+    <string name="payments_input_no_name">No name chosen</string>
+    <string name="payments_input_no_amount">No amount chosen</string>
+    <string name="payment_day_description">"\n(Every day regular payment)"</string>
+    <string name="payments_week_description">"\n(Every week regular payment)</string>
+    <string name="payment_month_description">"\n(Every month regular payment)</string>
+
+
+    <string name="nav_persons_info">Persons info</string>
+    <string name="nav_calculator">Calculator</string>
+    <string name="nav_regular_payments">Regular payments</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_add_second_user">Add second user</string>
+    <string name="nav_synchronize">Synchronize</string>
+    <string name="nav_choose_currency">Choose currency</string>
+    <string name="nav_sign_out">Sign out</string>
+
+    <string name="bottom_sheet_deleted">Deleted</string>
+    <string name="bottom_sheet_revoke">Revoke</string>
+
+    <string name="transactions_radio_month">Month</string>
+    <string name="transactions_radio_week">Week</string>
+    <string name="transactions_radio_day">Day</string>
+
+    <string name="dialog_budget_create">create</string>
+    <string name="dialog_budget_in_year">In Year</string>
+    <string name="dialog_budget_in_month">In Month</string>
+    <string name="dialog_budget_in_week">In Week</string>
+    <string name="dialog_budget_amount">Amount</string>
+    <string name="payments_choose_day">Choose day</string>
+    <string name="payments_payment_name">Payment Name</string>
+    <string name="payments_every_day">Every Day</string>
+    <string name="payments_every_week">Every Week</string>
+    <string name="payments_every_month">Every Month</string>
+    <string name="payments_save">Save</string>
+
+    <string name="info_spending_today">Spending today:</string>
+    <string name="info_spending_this_month">Spending this month:</string>
+    <string name="info_spending_total">Spending total:</string>
+    <string name="info_earnings_this_month">Earnings this month:</string>
+    <string name="info_earnings_total">Earnings total:</string>
+    <string name="info_transactions_this_month">Transactions this month:</string>
+    <string name="info_total_transactions">Total transactions:</string>
+
+    <string name="dialog_add_user_email_hint">Enter e-mail of second user</string>
+    <string name="dialog_add_user_btn_cancel">Cancel</string>
+    <string name="dialog_add_user_btn_ok">Ok</string>
+    <string name="dialog_add_user_progress_title">"Searching user "</string>
+    <string name="dialog_add_user_progress_message">Second user must write your e-mail on another device</string>
+    <string name="dialog_add_user_progress_btn_cancel">Cancel</string>
+    <string name="toast_email_not_valid">E-mail address not valid</string>
+    <string name="toast_new_user_added"> was added.</string>
+    <string name="toast_not_correct_email">Can`t correct to</string>
+    <string name="dialog_add_user_ask_retry">Connection failed. Make sure you writing correct e-mail.</string>
+    <string name="dialog_add_user_btn_retry">retry</string>
+
+    <string-array name="currency_array">
+        <item> $</item>
+        <item> €</item>
+        <item> £</item>
+        <item> ₪</item>
+        <item> ₽</item>
+        <item> ¥</item>
+    </string-array>
+
+    <string-array name="statistic_month_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+
+</resources>

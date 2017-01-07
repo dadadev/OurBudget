@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+
+        android:id="@+id/info_p2_card_today"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="4dp"
+        card_view:cardMaxElevation="6dp"
+        app:contentPaddingLeft="8dp"
+        app:contentPaddingRight="8dp"
+        app:contentPaddingTop="8dp"
+        app:contentPaddingBottom="8dp"
+        android:layout_margin="8dp"
+        card_view:cardBackgroundColor="@color/input_up_buttons_background"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info_spending_today"
+            android:id="@+id/info_p2_today_label"
+            android:layout_gravity="left"
+            android:layout_marginLeft="8dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/info_p2_today_value"
+            android:layout_marginRight="8dp"
+            android:layout_gravity="right"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+
+        android:id="@+id/info_p2_card_month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="4dp"
+        card_view:cardMaxElevation="6dp"
+        app:contentPaddingLeft="8dp"
+        app:contentPaddingRight="8dp"
+        app:contentPaddingTop="8dp"
+        app:contentPaddingBottom="8dp"
+        android:layout_margin="8dp"
+        card_view:cardBackgroundColor="@color/input_up_buttons_background"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info_spending_this_month"
+            android:id="@+id/info_p2_month_label"
+            android:layout_gravity="left"
+            android:layout_marginLeft="8dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/info_p2_month_value"
+            android:layout_marginRight="8dp"
+            android:layout_gravity="right"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+
+        android:id="@+id/info_p2_card_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="4dp"
+        card_view:cardMaxElevation="6dp"
+        app:contentPaddingLeft="8dp"
+        app:contentPaddingRight="8dp"
+        app:contentPaddingTop="8dp"
+        app:contentPaddingBottom="8dp"
+        android:layout_margin="8dp"
+        card_view:cardBackgroundColor="@color/input_up_buttons_background"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info_spending_total"
+            android:id="@+id/info_p2_total_label"
+            android:layout_gravity="left"
+            android:layout_marginLeft="8dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/info_p2_total_value"
+            android:layout_marginRight="8dp"
+            android:layout_gravity="right"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+
+        android:id="@+id/info_p2_card_month_earnings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="4dp"
+        card_view:cardMaxElevation="6dp"
+        app:contentPaddingLeft="8dp"
+        app:contentPaddingRight="8dp"
+        app:contentPaddingTop="8dp"
+        app:contentPaddingBottom="8dp"
+        android:layout_margin="8dp"
+        card_view:cardBackgroundColor="@color/input_up_buttons_background"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info_earnings_this_month"
+            android:id="@+id/info_p2_month_earnings_label"
+            android:layout_gravity="left"
+            android:layout_marginLeft="8dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/info_p2_month_earnings_value"
+            android:layout_marginRight="8dp"
+            android:layout_gravity="right"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+
+        android:id="@+id/info_p2_card_total_earnings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="4dp"
+        card_view:cardMaxElevation="6dp"
+        app:contentPaddingLeft="8dp"
+        app:contentPaddingRight="8dp"
+        app:contentPaddingTop="8dp"
+        app:contentPaddingBottom="8dp"
+        android:layout_margin="8dp"
+        card_view:cardBackgroundColor="@color/input_up_buttons_background"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info_earnings_total"
+            android:id="@+id/info_p2_total_earnings_label"
+            android:layout_gravity="left"
+            android:layout_marginLeft="8dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/info_p2_total_earnings_value"
+            android:layout_marginRight="8dp"
+            android:layout_gravity="right"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+
+        android:id="@+id/info_p2_card_month_transactions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="4dp"
+        card_view:cardMaxElevation="6dp"
+        app:contentPaddingLeft="8dp"
+        app:contentPaddingRight="8dp"
+        app:contentPaddingTop="8dp"
+        app:contentPaddingBottom="8dp"
+        android:layout_margin="8dp"
+        card_view:cardBackgroundColor="@color/input_up_buttons_background"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info_transactions_this_month"
+            android:id="@+id/info_p2_month_transactions_label"
+            android:layout_gravity="left"
+            android:layout_marginLeft="8dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/info_p2_month_transactions_value"
+            android:layout_marginRight="8dp"
+            android:layout_gravity="right"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+
+        android:id="@+id/info_p2_card_total_transactions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="4dp"
+        card_view:cardMaxElevation="6dp"
+        app:contentPaddingLeft="8dp"
+        app:contentPaddingRight="8dp"
+        app:contentPaddingTop="8dp"
+        app:contentPaddingBottom="8dp"
+        android:layout_margin="8dp"
+        card_view:cardBackgroundColor="@color/input_up_buttons_background"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info_total_transactions"
+            android:id="@+id/info_p2_total_transactions_label"
+            android:layout_gravity="left"
+            android:layout_marginLeft="8dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/info_p2_total_transactions_value"
+            android:layout_marginRight="8dp"
+            android:layout_gravity="right"/>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
